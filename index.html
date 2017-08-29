@@ -3,22 +3,24 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Login Page</title>
+		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
-		<form action="">
+		<form action="/jokes.html">
+
+		<div class="container">
+			<label for=""><b>Username</b></label>
+			<input type="text" placeholder="user@example.com" name="uname" required>
+			<br>
+			<label for="">Password</label>
+			<input type="password" placeholder="**********" name="password" required>
+			<br>
+			<button type="submit">Login</button>
+			<br>
+			<input type="checkbox" checked="checked"> Remember me
+
+		</div>
 			
-			<div>Username
-			<input type="text" style="margin: 10px" name="firstname">
-			</div>
-			<br>
-			<div>Password
-			<input type="text" style="margin: 10px" name="password">
-			</div>
-			<br>
-			<div>
-				<button id="login">Login</button>
-			</div>
-		</form>
 		
 	</body>
 </html>
