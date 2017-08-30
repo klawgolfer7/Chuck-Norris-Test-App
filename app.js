@@ -1,3 +1,6 @@
+const Chuck  = require('chucknorris-io'),
+      client = new Chuck();
+
 var userInput = $("#searchInput").val;
 
 console.log(userInput)
