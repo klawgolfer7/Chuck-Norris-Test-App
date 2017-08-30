@@ -8,19 +8,23 @@ const Chuck  = require('chucknorris-io'),
 	alert("Please search again")
 });
 
-var userInput = $("#searchInput").val;
-
-console.log(userInput)
-
-$("button").on("click", function() {
-	var search = $(this).data(userInput);
-
-	var queryURL = "https://api.chucknorris.io/jokes/search?query={" + search + "}";
-
-	$.ajax({
-		url: queryURL,
-		method: "GET"
-	})
 
 
-})
+
+// WENT IN THE WRONG DIRECTION WITH THE BELOW. 
+// var userInput = $("#searchInput").val;
+
+// console.log(userInput)
+
+// $("button").on("click", function() {
+// 	var search = $(this).data(userInput);
+
+// 	var queryURL = "https://api.chucknorris.io/jokes/search?query={" + search + "}";
+
+// 	$.ajax({
+// 		url: queryURL,
+// 		method: "GET"
+// 	})
+
+
+// })
